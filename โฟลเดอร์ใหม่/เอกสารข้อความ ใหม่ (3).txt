@@ -1,0 +1,8 @@
+document.getElementById('revealButton').addEventListener('click', function() {
+    var revealMessage = document.getElementById('revealMessage');
+    if (revealMessage.style.display === 'none') {
+        revealMessage.style.display = 'block';
+    } else {
+        revealMessage.style.display = 'none';
+    }
+});
